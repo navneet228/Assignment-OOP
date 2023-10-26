@@ -1,0 +1,15 @@
+package oct19pacage1;
+
+public class MyProgram1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//
+		int val1=22;
+		int val2=34;
+		int total=val1+val2;
+		System.out.println(total);
+		
+	}
+
+}

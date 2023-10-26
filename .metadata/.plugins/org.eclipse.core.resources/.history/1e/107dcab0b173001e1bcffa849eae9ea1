@@ -1,0 +1,16 @@
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int nn=-1;
+		if(nn>0){
+			System.out.println(nn);
+			
+		}else {
+			System.out.println(nn*(-1));
+		}
+	}
+
+}

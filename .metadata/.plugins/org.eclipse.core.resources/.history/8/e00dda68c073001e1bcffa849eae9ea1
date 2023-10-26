@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Q26 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int daynum;
+		String day;
+		Scanner kb= new Scanner(System.in);
+		 daynum= kb.nextInt();
+		 day= kb.next();
+	}
+
+}

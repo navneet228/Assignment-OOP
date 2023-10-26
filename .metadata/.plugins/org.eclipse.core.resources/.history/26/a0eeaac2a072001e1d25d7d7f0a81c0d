@@ -1,0 +1,37 @@
+package oct19pacage1;
+
+import java.util.Scanner;
+
+public class activity1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		//q1
+//		
+		Scanner kk= new Scanner(System.in);
+		System.out.print("enter a number ");
+
+//		int a= kk.nextInt();
+//		
+//		if(a%2!=0){
+//			System.out.println(a +" number is odd ");
+//		}else {
+//			System.out.println(a +" number is even ");
+//		}
+		//q2
+		
+		double num1=kk.nextDouble();
+		double num2=kk.nextDouble();
+
+		double num3=kk.nextDouble();
+		
+		double average= num1+num2+num3/2;
+		
+		
+		System.out.println(" the average is : " + average);
+
+		
+	}
+
+}

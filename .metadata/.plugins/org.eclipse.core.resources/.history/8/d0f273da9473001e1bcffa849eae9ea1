@@ -1,0 +1,137 @@
+package oct19pacage1;
+
+import java.util.Scanner;
+
+public class activity1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		//q1
+		
+		Scanner kk= new Scanner(System.in);
+//    	System.out.print("enter a number ");
+//
+//		int a= kk.nextInt();
+//		
+//		if(a%2!=0){
+//			System.out.println(a +" number is odd ");
+//		}else {
+//			System.out.println(a +" number is even ");
+//		}
+//		//q2
+//		System.out.println(a +" number is even ");
+//
+//		System.out.print("enter a number 1 ");
+//        double num1=kk.nextDouble();
+//		System.out.print("enter a number 2 ");
+//		double num2=kk.nextDouble();
+//		System.out.print("enter a number 3 ");
+//		double num3=kk.nextDouble();
+//				double average= (num1+num2+num3)/3;
+//		System.out.println(" the average is : " + average);
+//		
+//		//q3
+//		System.out.print("enter a number 1 ");
+//        int num1= kk.nextInt();
+//		System.out.print("enter a number 1 ");
+//        int num2= kk.nextInt();
+//        
+//        if(num1>num2) {
+//    		System.out.println( num1 + "is greater than " +num2);
+//        }else{
+//    		System.out.println(num1 + "is less than "+ num2);
+//        }
+//        System.out.println("maximum number is  "+Math.max(num1,num2)); 
+     //q4
+		
+//      System.out.print("enter a number "); 
+//
+//        int num1= kk.nextInt();
+//        int factorial=1;
+//        for(int i=1; i<=num1; i++) {
+//        	factorial=factorial*i;
+//        }
+//      System.out.println("factorial of " +num1 +" is "+ factorial); 
+		
+//q5
+//		System.out.print("Enter a number : ");
+//		int nn= kk.nextInt();
+//		
+//		if(nn>=0){
+//			System.out.println(nn);
+//			
+//		}else {
+//			System.out.println(nn*(-1));
+//		}
+		
+		//q6
+		
+//		System.out.print("enter a number 1 ");
+//      int num1= kk.nextInt();
+//		System.out.print("enter a number 2 ");
+//      int num2= kk.nextInt();
+//    int num3= num1;
+//     num1=num2;
+//    num2=num3;
+//    System.out.println("After swapping the numbers ")
+//	System.out.println("now num1 is  " + num1);
+//	System.out.println("now num2 is  "+ num2);
+		
+		//q7
+		
+//		System.out.print("enter a number  ");
+//      int num1= kk.nextInt();
+//      boolean primenum= true;
+//      
+//      if(num1<=1) {
+//    	  primenum=false;
+////  		System.out.print("enter a number  ");
+//    	  }else {
+//    		  for(int i=2;i<num1; i++) {
+//    			  if(num1%i==0) {
+//    				  primenum =false;
+//    				  break;
+//    			  }
+//    		  }
+//    	  }
+//      if(primenum) {
+//    	  System.out.print(num1 + "is a prime number.");
+//      }else {
+//    	  System.out.print(num1 + "is not a prime number.");
+//
+//      }
+		//8
+		
+		//q9
+//		System.out.print("Enter your age :");
+//		int age= kk.nextInt();
+//		
+//		if(age>=18) {
+//			System.out.print("You are eligible to vote");
+//		}else {
+//			System.out.print("Sorry! You are not eligible to vote");
+//
+//		}
+      //q10
+		System.out.print("enter a number  ");
+      int num= kk.nextInt();
+      
+      if(num<=0) {
+    	  System.out.print( num+ " number is a negative number");
+      }else if(num>=0) {
+    	  System.out.print( num+ " number is a positive number");
+      }else if(num==0) {
+    	  System.out.print( num+ " number is equals to 0");
+      }
+      
+      
+      
+
+        }
+	}
+
+		
+	
+
+
