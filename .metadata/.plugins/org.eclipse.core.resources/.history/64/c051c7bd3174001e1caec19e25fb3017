@@ -46,7 +46,7 @@ public class Q27 {
 			month="Not defined";
 			break;
 		}
-		System.out.print( month);
+		System.out.print("As per your input month is  "+ month);
 		
 		kk.close();
 	}

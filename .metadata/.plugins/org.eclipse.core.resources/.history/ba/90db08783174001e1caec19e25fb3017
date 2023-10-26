@@ -6,8 +6,8 @@ public class Q27 {
 		// TODO Auto-generated method stub
 		Scanner kk= new Scanner(System. in);
 		System.out.print("Enter the month (1-12): ");
-        String month ;
-		int days= kk.nextInt();
+        String month = kk.nextLine();
+		int days;
 		switch(days){
 		case 1:
 			month="jan has 31 days ";
@@ -46,7 +46,7 @@ public class Q27 {
 			month="Not defined";
 			break;
 		}
-		System.out.print( month);
+		System.out.print("As per your input month is  "+ month);
 		
 		kk.close();
 	}
