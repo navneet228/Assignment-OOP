@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Q39 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kk= new Scanner(System.in);
+    	System.out.print("enter a number: ");
+    	int n=kk.nextInt();
+    	int i,factorial=1;
+    	
+    	do {
+    		i++;
+    		factorial= factorial*n;
+    	}while(i<=n);
+	}
+
+}

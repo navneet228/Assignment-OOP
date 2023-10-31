@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Q36 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kk= new Scanner(System.in);
+    	System.out.print("enter a number: ");
+    	double A= kk.nextInt();
+    	double c=0;
+    	double i=0;
+    	while(i<A) {
+    		 c= (int)Math.sqrt(A);
+    		 i++;
+    	}
+    	System.out.print(c);
+	}
+}

@@ -1,0 +1,12 @@
+
+public class Q36 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=4;
+//int b=2;
+double c= Math.sqrt(a);
+System.out.print(c);
+	}
+
+}

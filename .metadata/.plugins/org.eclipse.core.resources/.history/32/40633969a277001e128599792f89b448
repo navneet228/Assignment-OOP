@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Q38 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kk= new Scanner(System.in);
+    	System.out.print("enter a number: ");
+    	int n= kk.nextInt();
+    	int i=1;
+    	int sum=1;
+    	
+		do{
+			System.out.println(sum);
+			i++;
+			sum= sum+n;
+		}while(i<=10);
+	kk.close();	
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Q40 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kk= new Scanner(System.in);
+    	System.out.print("enter a number: ");
+    	int n= kk.nextInt();
+    	int i=0;
+    	int fibo1=1;
+    	int fibo2=1;
+    	int fibo= 0;
+		System.out.println(fibo1+ " "+ fibo2);
+
+    	
+    	do {
+    		fibo=fibo1+fibo2;
+    		i++;
+
+
+    	}while(i<=10);
+		System.out.println(fibo);
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package oct19pacage1;
+
+import java.util.Scanner;
+
+public class Tests {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+        int totalSales = 0;
+        int totalPeople = 0;
+
+        System.out.println("Welcome to the concert sales calculator!");
+
+        while (true) {
+            System.out.print("Enter the age of the person (or -1 to exit): ");
+            int age = scanner.nextInt();
+
+            if (age == -1) {
+                break;
+            }
+
+            int ticketPrice;
+            if (age < 18) {
+                ticketPrice = 15;
+            } else {
+                ticketPrice = 30;
+            }
+
+            totalSales += ticketPrice;
+            totalPeople++;
+        }
+
+        System.out.println("Total sales: $" + totalSales);
+        System.out.println("Total number of people: " + totalPeople);
+	}
+
+}
