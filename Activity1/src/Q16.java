@@ -12,11 +12,12 @@ public class Q16 {
 				System.out.print("Enter your Num : ");
 				num = kb.nextInt();
 				
-				if(num % num == 0) {
+				double sqrnum= (int)Math.sqrt(num);  // to check the square root first//
+				if(num * num == 0) {
 					System.out.print(num + " is a perfect square");
 				}
 				else {
-					System.out.print(num + "is not a perfect square");
+					System.out.print(num + " is not a perfect square");
 				}
 			}
 

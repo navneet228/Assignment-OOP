@@ -15,21 +15,18 @@ public class Q24 {
 		}else{
 			System.out.println(DD + " is a odd number");
 		}
-			if (isPrime(DD)) {
-	            System.out.println(DD + " is prime.");
-	        } else {
-	            System.out.println(DD + " is not prime.");
-	            }
+		int counter =0;
+		for(int i =1; i<=DD; i++) {
+			if(DD%i==0) {
+				counter++;
 			}
-public static boolean isPrime(int num) {
-    if (num <= 1) {
-        return false;
-    }
-    for (int i = 2; i <= Math.sqrt(num); i++) {
-        if (num % i == 0) {
-            return false;
-        }
-    }
-    return true;
+		}
+		if(counter==2) {
+			System.out.println(DD + " is a prime number");
+
+		}else {
+			System.out.println(DD + " is a not a number");
+		}
+		cc.close();
     }
 }

@@ -15,7 +15,8 @@ public class Q33 {
 			reverse=reverse*10+rr;
 			num=num/10;
 		}
-		System.out.print(reverse);
+		System.out.print("reversed number is : "+reverse);
+		kb.close();
 	}
 
 }

@@ -7,6 +7,7 @@ public class Q25 {
 		int monthNum;
 		String monthName;
 		Scanner kb= new Scanner(System.in);
+		System.out.print("Enter a number: ");
 		 monthNum= kb.nextInt();
 //		 monthName= kb.next();
 
@@ -54,6 +55,7 @@ public class Q25 {
 			break;
 		}
 		System.out.print("As per your input month is  "+ monthName);
+		kb.close();
 	}
 
 }

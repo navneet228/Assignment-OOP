@@ -24,7 +24,8 @@ public class Q22 {
 			else   
 			{  
 			System.out.println("Roots are not real.");  
-			}  
+			} 
+		
 		}
 
 

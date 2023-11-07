@@ -15,6 +15,7 @@ if(num<0) {
 }else{
 	  System.out.print( num+ " number is equals to 0");
 }
+kk.close();
 	}
 
 }

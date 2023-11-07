@@ -8,12 +8,14 @@ public class Q30 {
 		System.out.print(" enter number ");
 		int nn=kk.nextInt();
 		int sum=0;
+		int count=1;
 
-		while(nn<=10) {
-			sum=sum+nn;
-			nn++;
-			System.out.println("sum = "+ sum);
+		while(count<=nn) {
+			sum=sum+count;
+			count++;
+			
 		}
+		System.out.println("sum = "+ sum);
 		System.out.println();
 		System.out.println("done ");
 	kk.close();
