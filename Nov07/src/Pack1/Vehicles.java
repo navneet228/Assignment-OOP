@@ -11,6 +11,12 @@ public class Vehicles {
 			price= 5000;
 			maxSpeed = 500;
 		}
+		public Vehicles(int nd, int p, int ms) {
+			System.out.println("Creating obj from parameter constructor: ");
+			numofDoor= nd;
+			price= p;
+			maxSpeed = ms;
+		}
 
 		public int getNumofDoor() {
 			return numofDoor;
@@ -62,14 +68,17 @@ public class Vehicles {
 			price= v.price;
 			maxSpeed = v.maxSpeed;
 		}
-
-		public void showinfo() {                
-			System.out.println("vehicle has "+ numofDoor + " number of doors."+"vehicle price is $ "+ price+ " , Maximum speed is "+maxSpeed+"km/hr");
+//
+//		public void showinfo() {                
+//			System.out.println("vehicle has "+ numofDoor + " number of doors."+"vehicle price is $ "+ price+ " , Maximum speed is "+maxSpeed+"km/hr");
 
 
 		public void printme() {                
 			System.out.println("vehicle has "+ numofDoor + " number of doors."+"vehicle price is $ "+ price+ " , Maximum speed is "+maxSpeed+"km/hr");
 //			System.out.println("vehicle price is $ "+ price);
-
 		}
+			@Override 
+			public String toString() {
+				return "Vehicles [numofDoor=" + numofDoor + ", price=" + price + ", maxSpeed=" + maxSpeed + "]";
+			}
 }

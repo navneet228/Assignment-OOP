@@ -21,7 +21,7 @@ public class Vehicle {
 		return price;
 	}
 	public void setPRice(int p) {
-		if(p<0 || p>100000) {
+		if(p>0 || p<100000) {
 			price=p;}
 		else {
 			System.out.println("I can not set it");
@@ -34,4 +34,5 @@ public class Vehicle {
 		System.out.println("vehicle price is $ "+ price);
 
 	}
+
 }

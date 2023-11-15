@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub                //here - class for bicycle
+		// TODO Auto-generated method stub                
 		Bicycle v1= new Bicycle();                          // create obj from bicycle=v1
 		System.out.println("My first cas info : ");
 		v1.printme();
